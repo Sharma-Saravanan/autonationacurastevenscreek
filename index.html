@@ -3,42 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autonation Acura Stevens Creek</title>
+    <title>Screenshot Viewer</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
             margin: 0;
-            padding: 20px;
-            text-align: center;
+            background-color: #f0f0f0;
         }
-        iframe {
-            width: 90%;
-            height: 600px;
-            border: 2px solid #333;
-            margin: 20px auto;
+        .screenshot-container {
+            max-width: 90%;
+            max-height: 90vh;
+            overflow: auto;
+            border: 3px solid #333;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
-        .warning {
-            color: red;
-            font-weight: bold;
+        .screenshot-container img {
+            width: 100%;
+            height: auto;
+            display: block;
         }
     </style>
 </head>
 <body>
-    <h1>Embedded Website</h1>
-    
-    <p class="warning">Note: Not all websites allow embedding. Some may block iframes.</p>
-    
-    <!-- Example with Wikipedia (which generally allows embedding) -->
-    <iframe src="https://www.autonationacurastevenscreek.com/" frameborder="0"></iframe>
-    
-    <div>
-        <h2>Alternative Embedding Options</h2>
-        <p>If the iframe doesn't work, the website may have restrictions. In such cases, you might:</p>
-        <ul>
-            <li>Check the website's terms of service</li>
-            <li>Use an API if available</li>
-            <li>Link to the site instead of embedding</li>
-        </ul>
+    <div class="screenshot-container">
+        <img src="screen.png" alt="Your Screenshot">
     </div>
 </body>
 </html>
