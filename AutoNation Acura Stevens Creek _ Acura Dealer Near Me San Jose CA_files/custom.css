@@ -1,0 +1,85 @@
+/* jacquelinewaugh | Left-Align and resize promo banner */
+.promotions-banner .event-promotion .promo-description {text-align: left; font-size: 19px;}
+
+/* image alignment */
+.content img {display: inline;}
+/* fix vlp image distortion */
+.vlp .media img {width: 100%; height: auto; padding-right: 8px;}
+
+/* Uncapitalize ACURA in titles and home page */
+.content-page-title h1 {text-transform: none;}
+.h1.ddc-heading-1 {text-transform: none;}
+/* fix montly payment value label overlap VDP */
+.vdp .monthlyPayment .h2 {margin-right:0px!important;}
+/* ePrice Button VLP */
+.vlp a[data-href*="eprice"],
+html[class*="alias-sitebuilder"] a[data-href*="eprice"] {white-space: normal; font-size: 15px!important;}
+/* Reserve it now Btn VDP */
+.vdp .an-reserve-now-button.btn.btn-primary {width: 103%; background-color: #e6231e; transition: none!important; padding: 0!important; height: 40px}
+.vdp .an-reserve-now-button.btn.btn-primary:hover {background: #000!important;}
+/* Get My Autonation Button text size */
+.eprice .ui-button-text {font-size:11px;}
+
+/* check availability width VDP */
+.single-price .eprice {width:96%;}
+.inv-type-used .ePrice .nav .ddc-span6 {width:106%;}
+.inv-type-new  .nav .ddc-span6 {width:106%;}
+/* Button Color changes */
+.pricing .eprice-button, .pricing .btn[data-eprice], .inv-type-new .ePrice .btn {border: none;color: #FFF;background: black;}
+.pricing .eprice-button, .pricing .btn[data-eprice]:hover{border: none;color: #FFF;background: black;}
+.pricing .eprice-button, .pricing .btn[data-eprice], .inv-type-new .ePrice .btn:hover{border: none;color: #FFF;background: black;}
+.inv-type-used .ePrice .nav .btn {border: none;color: #FFF;background: black;}
+/* VDP Links List */
+.vdp .links-list a {background-color: #000;color: #fff;border: none;}
+/* css eprice confirmation pop up fix */
+.vlp .ui-dialog .ddc-page .content, 
+.vdp .ui-dialog .ddc-page .content {display: none;}
+
+/* M-00497019 billyh */
+.facet-user-range-chart {display: none;}
+.facet-user-range-input-group input.facetmulti-input {padding: 8px 10px;}
+
+/* ddcalmirc 07960259 */
+.index .slideshow-background {overflow: hidden;}
+.index .slideshow-background .slideControls {left: 0;}
+.index .slideshow-background .slideControls .previousNext {width: 1600px; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);}
+
+/* Enthusiast Edge - Force credit card iframe to be centered */
+.alias-sitebuilder-autonation-credit-card-1 div.container.main {max-width: 1300px!important; width: 100%!important;}
+
+/* Start 'vlp-new-price-value-salePrice' (do not modify this line) */
+/* Modified by jacquelinewaugh on 03/23/20 04:03 PM EDT */
+.vlp .inventoryList .item.inv-type-new .pricing .salePrice .value { text-decoration: none; font-weight: bold; font-size: 14px; color: #21b500; }
+/* End 'vlp-new-price-value-salePrice' (do not modify this line) */
+
+/* ddcmhampton 09292151 */
+.incentive-list .incentive-type-heading {font-size: 18px;font-weight: bold;}
+.incentive-list a {font-weight: bold;font-size:14px;}
+
+/* 09500783 JLC */
+.alias-lease-and-finance-offers .incentives-listing-acura .actions .submit.print { display: none; }
+
+/* ddcdaniele - 11485740 */
+.page-header.responsive-centered-nav .header-contact .vcard .tels .tel.phone1 {font-size: 18px; }
+
+/* Enthusiast Edge - Make homepage faceted search heading white */
+[data-widget-name=ws-facet-browse] .sub-heading { color: #fff; }
+
+/* Enthusiast Edge - Adjust homepage hero height */
+.content-hero.content1 { height: 960px !important; }
+.hero-image-overlay-container .content-hero .container { height: 320px !important; }
+.index-0018 .hero-image-overlay-container.responsive-content .hero-image-overlay .ddc-content { margin-bottom: 64px !important; }
+
+/* Enthusiast Edge - Custom styling for TRP link lists */
+.trp-link-list { -webkit-column-count: 3; -moz-column-count: 3; column-count: 3; }
+.trp-link-list li { -webkit-column-break-inside: avoid; -moz-column-break-inside: avoid; break-inside: avoid; }
+
+/* Start 'srp-new-price-value-salePrice' (do not modify this line) */
+/* Modified by bmeuth on 07/22/24 01:21 PM CDT */
+.srp .inv-type-new.pricing-detail .salePrice .price-value { text-decoration: none; font-size: 15.75px; color: #21b500; }
+/* End 'srp-new-price-value-salePrice' (do not modify this line) */
+
+/* Start 'vdp-new-price-value-salePrice' (do not modify this line) */
+/* Modified by bmeuth on 07/22/24 01:21 PM CDT */
+.vdp .inv-type-new.pricing-detail .salePrice .price-value { text-decoration: none; font-size: 18px; color: #21b500; }
+/* End 'vdp-new-price-value-salePrice' (do not modify this line) */
